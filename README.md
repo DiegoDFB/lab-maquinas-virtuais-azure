@@ -85,3 +85,63 @@ Tamanho: Escolher a configuração de CPU, RAM e armazenamento.
 Habilitar Backup Automático para evitar perda de dados.
 
 Configurar Grupos de Segurança de Rede (NSG) para restringir tráfego não autorizado.
+
+
+**6. Configurando um Banco de Dados no Microsoft Azure**
+
+O Azure oferece diversos serviços de banco de dados, incluindo:
+
+**Azure SQL Database (Banco de dados relacional gerenciado)**
+
+**Azure Cosmos DB (Banco de dados NoSQL distribuído globalmente)**
+
+**Azure Database for MySQL/PostgreSQL (Bancos de dados open-source gerenciados)**
+
+
+**Passo a Passo para Criar um Banco de Dados SQL no Azure**
+**1. Acessar o Portal Azure**
+
+**2. Criar um Recurso de Banco de Dados SQL**
+
+No menu lateral, selecione "Criar um recurso".
+
+Na barra de pesquisa, digite "SQL Database" e selecione o serviço.
+
+Clique em "Criar".
+
+**3. Configurar os Detalhes Básicos**
+**Assinatura:**	Selecione a assinatura Azure onde o banco será criado.
+
+**Grupo de Recursos:**	Crie um novo ou selecione um existente para organizar recursos relacionados.
+
+**Nome do Banco:**	Defina um nome único (ex: meubancosql).
+
+**Servidor:**	Crie um novo servidor lógico (ex: sqlserver-001).
+
+**Localização:**	Escolha a região do datacenter (ex: East US).
+
+**Tipo de Banco:**	Selecione "Uso Geral" (para casos padrão) ou "Hiperescala" (alta performance).
+
+**Computação + Armazenamento:**	Escolha o modelo (ex: DTU ou vCore) e ajuste o tamanho conforme necessidade.
+
+
+**4. Configurar Autenticação e Segurança**
+
+**Método de Autenticação:**
+
+**Autenticação SQL:** Define um usuário e senha para acesso ao banco.
+
+**Azure Active Directory:** Permite autenticação integrada com contas Microsoft.
+
+
+**5. Configurar Rede (Firewall e Segurança)**
+
+**Redes:**
+
+**Ponto de extremidade público:** Permite acesso externo (restringível por firewall).
+
+**Ponto de extremidade privado:** Recomendado para maior segurança (VNet Integration).
+
+**Firewall:**
+
+Adicione regras para permitir conexões de IPs específicos (ex: seu IP corporativo).
