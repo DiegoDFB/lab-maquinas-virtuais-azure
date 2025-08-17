@@ -2,7 +2,9 @@
 Documentação sobre o curso de Fundamentos de Microsoft Azure na DIO.
 
 **Progresso e Aprendizado em Fundamentos de Microsoft Azure**
+
 **1. Introdução**
+
 Este documento tem como objetivo registrar o progresso e os conhecimentos adquiridos durante o curso de Fundamentos de Microsoft Azure da DIO, abordando os seguintes tópicos:
 
 **Introdução à computação em nuvem**
